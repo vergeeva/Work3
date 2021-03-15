@@ -1,6 +1,5 @@
 ﻿Public Class Form1
     Private Sub Flag_Click(sender As Object, e As EventArgs) Handles Flag.Click
-        'ListBox1.Items.Add("Включен")
         ListBox1.Items.RemoveAt(ListBox1.Items.Count - 1)
     End Sub
 
